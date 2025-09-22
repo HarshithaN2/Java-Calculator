@@ -52,6 +52,7 @@ public class Calculator {
             double num2 = sc.nextDouble();
 
             double result = 0;
+
             switch (choice) {
                 case 1: result = add(num1, num2); break;
                 case 2: result = subtract(num1, num2); break;
@@ -68,3 +69,4 @@ public class Calculator {
         sc.close();
     }
 }
+
